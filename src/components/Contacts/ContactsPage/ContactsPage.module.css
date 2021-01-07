@@ -1,0 +1,20 @@
+.contactsPage {
+	flex-grow: 1;
+}
+.contactsContainer {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.contactsPaper {
+	display: flex;
+	flex-grow: 1;
+  flex-direction: column;
+}
+button.logoutBtn {
+	position: absolute;
+	width: 100px;
+  right: -120px;
+  margin: 10px;
+	display: flex;
+}

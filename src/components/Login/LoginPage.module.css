@@ -1,0 +1,30 @@
+.loginContainer {
+	margin: auto;
+}
+.loginFormContainer {
+	padding: 25px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+}
+form.form > * {
+	margin-top: 10px;
+}
+.form button {
+	width: 50%;
+	align-self: center;
+}
+.field {
+	min-height: 80px;
+}
+.loginError {
+	position: absolute;
+	bottom: -30px;
+	display: flex;
+	transform: translate(-50%, 0);
+  left: 50%;
+  width: fit-content;
+}

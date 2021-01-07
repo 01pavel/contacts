@@ -1,0 +1,22 @@
+.container {
+	padding: 0 5px 0 16px;
+}
+div.contactItem {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+div.contactItem > * {
+	width: 30%;
+	justify-content: flex-start;
+	display: flex;
+}
+.actionsContainer {
+	justify-content: flex-end !important;
+}
+.errorMessage {
+  position: absolute;
+  justify-content: flex-end !important;
+  right: 30px;
+  top: 0;
+}

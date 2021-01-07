@@ -1,0 +1,8 @@
+div.searchField {
+  margin: 10px;
+  width: 100%;
+}
+.status {
+  position: absolute;
+  right: 15px;
+}
